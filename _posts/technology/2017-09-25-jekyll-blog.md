@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      关键字auto的使用
+title:      搭建博客
 category: 	technology
-tag: C++
-description: C++11推出auto，C++14进一步优化。
+tag: Jekyll
+description: Jekyll+GithubPage搭建个人博客。
 ---
 
 接触到auto就不自觉爱上了233，武器库又多了一样利器。

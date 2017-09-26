@@ -3,12 +3,11 @@ layout:           default
 ---
 <div class="logo-name">
         <div class="logo-name-icon">
-            <a >North D.Kk.</a>             
-        </div>
-        
+            <a >North D.K.</a>             
+        </div>        
         <div class="moreinfo">
 	        <ul>
-	        	<li><a href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>	        	
+	        	<li><a href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>	        		        	
 	        </ul>   
         </div>
         <div class="moreinfo">
@@ -16,15 +15,46 @@ layout:           default
 	        	<li><a href="mailto:{{site.email}}"><span class="description">Email</span></a></li>
 	        </ul>   
         </div>
-        <div class="moreinfo">
+        <div class="taginfo">
 	        <ul>	        	
-	        	<li><a href="mailto:never_dk@163.com"><span class="description">Tags</span></a></li>
+	        	<li><a href="#" title = "heiha"><span class="description">Tags</span></a></li>
 	        </ul>   
         </div>
+        <div class="taginfo-show">			
+        	<ul>        		
+        		{% for tag in site.tags %}
+            		<ul><a>{{ tag[0] }}</a></ul>
+            	{% endfor %}
+            </ul>	
+        </div>
+        
 </div>
+<!--
+<div class="taginfo-show">
+    	<ul>
+    		<li><a>haha</a></li>
+    		{% for tag in site.tags %}
+    			<li><a>haha</a></li>
+    		{% endfor%}	
+    	</ul>
+</div>
+-->
 
 {{ content }}
 
+	<script type="text/javascript">
+        $(function(){
+            $('.taginfo').click(function(e){
+                e.preventDefault();
+
+                if($('.taginfo-show').is(':visible')){
+                    $('.taginfo-show').fadeOut(520);
+                }else{
+                    $('.taginfo-show').fadeIn(520);
+                }
+            });
+        })
+    </script>
 
 
 

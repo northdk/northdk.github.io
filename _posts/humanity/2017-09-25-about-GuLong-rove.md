@@ -2,6 +2,7 @@
 layout:     post
 title:      关于古龙和流浪
 category: 	humanity
+tag: Reading
 description: 读古龙，一些感怀。
 ---
 
