@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    * Author:         BeiYuu
+    * Revised:        Mukosame
+    -->
+    <meta charset="utf-8" />
+    <title>关键字auto的使用 | dk's blog</title>
+    <meta name="author" content="Mukosame" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Everything about Mukosame" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <!--
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="" />
+    <link rel="alternatecss" type="application/rss+xml" title="“North D.K.”" href="http://localhost:4000/feed.xml">
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    -->
+</head>
+<body>
+
+    <div class="home-menu">
+        <div class="home-icon-con">
+            <a class="home-menu-icon" href="/">Home</a>            
+        </div>        
+    </div>
+
+    <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+    body { background:#e8e8e8; }
+    @media screen and (max-width: 750px){
+        body { background:#fff; }
+    }
+    @media screen and (max-width: 1020px){
+        body { background:#fff; }
+    }
+</style>
+
+<div id="content">
+    <div class="entry">
+        <h1 class="entry-title"><a href="/CPP-keyword-auto" title="关键字auto的使用">关键字auto的使用</a></h1>
+        <p class="entry-date">2017-09-25</p>
+        
+        <p>接触到auto就不自觉爱上了233，武器库又多了一样利器。</p>
+
+<p>看个例子：</p>
+
+<pre><code>#include&lt;iostream&gt;
+int main(void){
+	auto blog = writeBlog(nowthdk.github.io);
+}
+</code></pre>
+
+<p>Well，什么也不会发生，开个玩笑。</p>
+<h3 id="基本用法隐藏类型">基本用法——隐藏类型</h3>
+<p>对于容器，除角标外通常会引入迭代器：</p>
+
+<pre><code>vector&lt;Typename&gt; vec;
+vector&lt;Typename&gt;::iterator iter = vec.begin();
+for(;iter != vec.end();++iter){}
+</code></pre>
+
+<p>那么现在可以这么写：</p>
+
+<pre><code>auto iter = vec.begin();
+</code></pre>
+
+<p>还不够简洁，这样：</p>
+
+<pre><code>for(auto member : vec){}
+</code></pre>
+
+<p><em>需要注意的一点是</em>，通常内置类型并不推荐使用auto，比如int、bool等，因为降低了程序的可读性。同时，尽管在编程的角度而言有争议，但是编译器允许这样写：</p>
+
+<pre><code>int a;
+bool b;
+</code></pre>
+
+<p>而auto则不允许只做声明而不定义：</p>
+
+<pre><code>auto m = a; //ok
+auto n;		//error
+</code></pre>
+
+<p>很容易理解，因为auto要首先根据右操作数来决定如何为变量申请内存。</p>
+
+        
+        <div id="disqus_container">
+            <class="comment"/>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//mukosame.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        
+        </div>
+   </div>
+   
+    <div class="sidenav">
+        <h2>相关文章</h2>
+        <ul class="artical-list">
+        
+        </ul>
+
+        <a href="/technology.html"><h2>Technology</h2></a>
+        <ul class="artical-list">
+        
+            <li><a href="/CPP-keyword-auto">关键字auto的使用</a></li>
+        
+        </ul>
+
+        <a href="/humanity.html"><h2>Humanity</h2></a>
+        <ul class="artical-list">
+        
+            <li><a href="/about-GuLong-rove">关于古龙和流浪</a></li>
+        
+        </ul>
+    </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+    
+</body>
+</html>

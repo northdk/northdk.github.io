@@ -1,0 +1,69 @@
+/*********************************************************
+ * Author:           North D.K.
+ * Contact:          northdk.com
+ * Profile:			 default style to show my blog with jekyll
+ ********************************************************/
+ 
+ 
+/* reset */
+html{color:#fff}
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+
+
+/* directory*/
+.home-menu { position:fixed; top:15px; left:15px; z-index:5; font-size:0; }
+.home-menu-icon { line-height:38px; padding:0 8px; display:inline-block; color:#fff; font-size:18px;  background:#000; }
+.home-menu-icon:hover { color:#CAFF70; text-decoration:none; }
+
+.index-content .aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    max-width: 500px;
+    background:#000;
+    box-shadow:inset -1px 0 0 rgba(0,0,0,0.3);
+    background-size:cover;
+    background-position:50% 50%;
+}
+.blog .aside{
+    background-image:url(https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*cF2i1ZosSP_UTJig.jpeg);
+}
+.index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
+.index-content .artical-list { width:70%; margin:0 auto; }
+.index-content .artical-list li { margin-bottom:70px; }
+.index-content h2 { font-size:20px; margin-bottom:15px; word-break: break-all;}
+.index-content h2 a { color:#444 }
+.index-content h2 a:hover { color:#E50053; text-decoration:none; }
+.index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
+
+.index-content .artical-cate { width:70%; margin:0 auto; }
+.index-content .artical-cate li { display:inline-block; *float:left; zoom:1; font-size:18px; width:32%; cursor:pointer; }
+.index-content .artical-cate li a,
+.index-content .artical-cate li a:visited { display:inline-block; zoom:1; color:#000; width:100%; }
+.index-content .artical-cate li a:hover { text-decoration:none; }
+.index-content .artical-cate li.on span{ color:red; }
+
+.index-content .cate-bar { height:3px; width:70%; margin:0 auto;margin-bottom:100px; }
+.index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
+

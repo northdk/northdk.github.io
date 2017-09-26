@@ -1,0 +1,17 @@
+auto: true
+
+markdown: kramdown
+
+highlighter: 'pygments'
+#paginate: 8
+permalink: /:title
+
+name: “North D.K.”
+title: dk's blog
+description: Freely writing by North D.K.
+blog_url: http://northdk.github.io
+#feed: /atom.xml
+#author_info: <a href="http://northdk.github.io/">North D.K.</a>
+github_username: northdk
+email_url: north24@qq.com
+
