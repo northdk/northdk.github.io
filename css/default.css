@@ -75,7 +75,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     position: fixed;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 32%;
     height: 100%;
     max-width: 500px;
     background:#4B0082;
@@ -93,12 +93,12 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
 .logo-name { position:fixed;
 	top:35%; 
-	left:8%; 
+	left:6%; 
 	z-index:5; 
 	font-size:0;
 	background:transparen;
 	}
-.logo-name-icon { line-height:40px; padding:0 8px; display:inline-block; font-size:40px;  background:transparen; }
+.logo-name-icon { line-height:40px; padding:0 8px; display:inline-block; font-size:45px;  background:transparen; }
 .logo-name-icon a {color:white}
 .logo-name-icon a:hover {text-decoration:none;}
 .moreinfo {
