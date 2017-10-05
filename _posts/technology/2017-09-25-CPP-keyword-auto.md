@@ -2,7 +2,7 @@
 layout:     post
 title:      关键字auto的使用
 category: 	technology
-tag: C++
+tag: CPP
 description: C++11推出auto，C++14进一步优化。
 ---
 

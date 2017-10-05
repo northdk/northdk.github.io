@@ -17,13 +17,13 @@ layout:           default
         </div>
         <div class="taginfo">
 	        <ul>	        	
-	        	<li><a href="#" title = "heiha"><span class="description">Tags</span></a></li>
+	        	<li><a href="#" title = "get tags"><span class="description">Tags</span></a></li>
 	        </ul>   
         </div>
         <div class="taginfo-show">			
         	<ul>        		
         		{% for tag in site.tags %}
-            		<ul><a>{{ tag[0] }}</a></ul>
+            		<ul><a href="/pages/tags/{{ tag[0] }}">{{ tag[0] }}</a></ul>
             	{% endfor %}
             </ul>	
         </div>
