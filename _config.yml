@@ -3,11 +3,11 @@ auto: true
 markdown: kramdown
 
 #paginate: 8
-permalink: /:title
+permalink: /:categories/:title.html
 
 name: “North D.K.”
 title: dk's blog
-description: Freely writing by North D.K.
+description: Free writing by North D.K.
 blog_url: http://northdk.github.io
 #feed: /atom.xml
 #author_info: <a href="http://northdk.github.io/">North D.K.</a>
