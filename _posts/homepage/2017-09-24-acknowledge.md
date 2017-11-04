@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      致谢-Acknowledge
+title:      Acknowledge
 category: 	homepage
 description: 很开心，能够搭建自己的博客。
 ---

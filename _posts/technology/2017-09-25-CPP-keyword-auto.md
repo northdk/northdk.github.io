@@ -13,9 +13,10 @@ description: C++11推出auto，C++14进一步优化。
 	#include<iostream>
 	int main(void)
 	{
-	    auto blog = writeBlog(nowthdk.github.io);
+	    auto blog = writeBlog(nowthdk.github.io);e
 	    return 0;
 	}
+
 
 Well，什么也不会发生，开个玩笑。
 ### 基本用法——隐藏类型#

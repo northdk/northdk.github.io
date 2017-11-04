@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      我的书单
+title:      BookList
 category: 	homepage
 description: 阅读是一件开心的事情。
 ---
