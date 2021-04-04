@@ -1,13 +1,10 @@
 ---
 layout:     post
-title:      关于编程
+title:      latte-art-show
 category: 	technology
 tag: Robot
-description: 一些总结和展望。
-
+description: robot make latte with art pattern.
 ---
-
-
 
 【双翅天鹅】
 
